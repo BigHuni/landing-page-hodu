@@ -13,8 +13,9 @@ body {
 }
 
 .header {
-   width: 100vw;
-   height: 100vh;
+   max-width: 1960px;
+   
+   background-color: #F2E9D8;
 }
 
 .nav {
@@ -24,7 +25,6 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #F2E9D8;
 }
 
 .logo-nav {
@@ -34,12 +34,24 @@ body {
 }
 
 .menu-wrap{
-    list-style: none;
     display: flex;
     flex-direction: row;
-    margin: 41px 436px;
     justify-content: space-between;
     align-items: center;
+    list-style: none;
+    margin: 41px 436px;
+}
+
+.menu-wrap .button-function {
+    position: relative;
+    width: 140px;
+    height: 50px;
+    padding: 15px 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    background: #D97652;
+    color: #fff;
 }
 
 .menu-cont {
@@ -47,6 +59,7 @@ body {
     height: 20px;
     margin: 41px 30px;
 }
+
 
 .button-function {
     position: relative;
@@ -77,5 +90,3 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-
-.main
