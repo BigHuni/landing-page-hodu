@@ -1,5 +1,9 @@
+html,
 body {
-    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+  background-color: #ffffff;
 }
 
 .sr-only {
@@ -13,8 +17,7 @@ body {
 }
 
 .header {
-   max-width: 1960px;
-   
+   max-width: 1280px;
    background-color: #F2E9D8;
 }
 
@@ -74,19 +77,33 @@ body {
 
 .main-article {
     display: flex;
-    padding: 231px 320px;
     background-color: #F2E9D8;
 }
 
-.image-lyingcat {
+/* .image-lyingcat {
     width: 660px;
     height: 390px;
     left: 320px;
     top: 1060px;
-}
+} */
 
 .contents-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.img-lyingcat{
+    width: 660px;
+    height: 390px;
+}
+
+.img-cat {
+    width: 378px;
+    height: 378px;
+}
+
+.img-topcat {
+    width: 1920px;
+    height: 340px;
 }
