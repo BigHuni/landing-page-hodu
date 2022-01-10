@@ -115,3 +115,16 @@ body {
 .footer-wrap {
     display: flex;
 }
+
+.footer-sns-blog::before {
+    background-image: url(/img/blog.png);
+}
+.footer-sns-instagram::before {
+    background-image: url(/img/instagram.png);
+}
+.footer-sns-facebook::before {
+    background-image: url(/img/facebook.png);
+}
+.footer-sns-youtube::before {
+    background-image: url(/img/youtube.png);
+}
