@@ -1,4 +1,5 @@
 body {
+    width: 1920px;
     font-family: 'Spoqa Han Sans Neo', 'sans-serif';
 }
 
@@ -14,7 +15,7 @@ body {
 }
 
 .header {
-   max-width: 1280px;
+    width: 100%;
 }
 
 .nav {
@@ -70,16 +71,27 @@ body {
 /* 메인 섹션 */
 
 .main-article {
+    width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #F2E9D8;
 }
 
-/* .image-lyingcat {
-    width: 660px;
-    height: 390px;
-    left: 320px;
-    top: 1060px;
-} */
+.main-text {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.desc-text {
+    padding: 40px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* 누워있는 고양이 섹션 */
 
 .section-wrap {
     display: flex;
@@ -87,7 +99,16 @@ body {
     align-items: center;
 }
 
+.img-lyingcat {
+    width: 660px;
+    height: 390px;
+    left: 320px;
+    top: 1060px;
+    border-radius: 30px;
+}
+
 .contents-wrapper {
+    width: 510px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -95,6 +116,7 @@ body {
 
 .lyingcat {
     display: flex;
+    padding: 80px 0;
 }
 
 .img-lyingcat{
@@ -103,11 +125,25 @@ body {
 }
 
 .contents-text {
+    width: 510px;
+    padding: 110px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+.sub-text {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+}
+
+.desc-text {
+    font-size: 16px;
+    line-height: 20px;
+}
+
 
 .img-cat {
     width: 378px;
