@@ -148,6 +148,9 @@ body {
 .img-cat {
     width: 378px;
     height: 378px;
+    padding: 72px;
+    filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.25));
+    border-radius: 30px;
 }
 
 .img-topcat {
