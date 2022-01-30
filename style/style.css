@@ -1,5 +1,5 @@
 body {
-    width: 1920px;
+    max-width: 1920px;
     font-family: 'Spoqa Han Sans Neo', 'sans-serif';
 }
 
@@ -14,29 +14,41 @@ body {
     overflow: hidden;
 }
 
-.header {
-    width: 100%;
-}
-
-.nav {
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
-.logo-nav {
-    width: 130px;
+.logo-header {
     height: 40px;
-    margin: 41px 320px;
 }
 
 .menu-conts{
+    float: right;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    margin: 41px 436px;
 }
+
+.menu-cont {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    margin-left: 30px;
+}
+
+.button-function {
+    padding: 15px 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    background: #D97652;
+    color: #fff;
+}
+
 
 .menu-wrap .button-function {
     width: 140px;
@@ -44,24 +56,6 @@ body {
     padding: 15px 30px;
     font-weight: bold;
     line-height: 10px;
-    border: none;
-    border-radius: 40px;
-    background: #D97652;
-    color: #fff;
-}
-
-.menu-cont {
-    display: inline-block;
-    width: 46px;
-    height: 20px;
-    margin: 41px 30px;
-}
-
-.button-function {
-    position: relative;
-    width: 140px;
-    height: 50px;
-    font-weight: bold;
     border: none;
     border-radius: 40px;
     background: #D97652;
