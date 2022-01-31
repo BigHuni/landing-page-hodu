@@ -22,7 +22,7 @@ body {
     margin: 0 auto;
 }
 
-.logo-header {
+.header-logo {
     height: 40px;
 }
 
@@ -148,7 +148,7 @@ body {
 }
 
 .img-topcat {
-    width: 100%;
+    width: 1920px;
     height: 340px;
 }
 
